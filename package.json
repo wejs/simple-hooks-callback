@@ -1,12 +1,12 @@
 {
   "name": "hooks-callback",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Hooks with callback, works like events but with async callbacks and in order",
   "homepage": "",
   "author": {
     "name": "Alberto Souza",
     "email": "alberto.souza.dev@gmail.com",
-    "url": "albertosouza.net"
+    "url": "http://albertosouza.net"
   },
   "files": [
     "lib"

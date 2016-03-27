@@ -1,6 +1,6 @@
 # simple-hooks-callback 
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] 
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Code Climate](https://codeclimate.com/github/wejs/simple-hooks_callback/badges/gpa.svg)](https://codeclimate.com/github/wejs/simple-hooks_callback) [![Test Coverage](https://codeclimate.com/github/wejs/simple-hooks_callback/badges/coverage.svg)](https://codeclimate.com/github/wejs/simple-hooks_callback/coverage)
 
 > Hooks with callback, works like events but with async callbacks and in order
 

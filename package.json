@@ -1,0 +1,32 @@
+{
+  "name": "hooks-callback",
+  "version": "0.0.0",
+  "description": "Hooks with callback, works like events but with async callbacks and in order",
+  "homepage": "",
+  "author": {
+    "name": "Alberto Souza",
+    "email": "alberto.souza.dev@gmail.com",
+    "url": "albertosouza.net"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "hook",
+    "event",
+    "callback",
+    "order"
+  ],
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  },
+  "repository": "wejs/hooks-callback",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/bootstrap.js test/**/*.test.js -b ",
+    "coverage": "./node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -u exports -R spec test/bootstrap.js test/**/*.test.js"
+  },
+  "license": "MIT"
+}

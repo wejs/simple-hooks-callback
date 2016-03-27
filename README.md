@@ -1,6 +1,6 @@
 # simple-hooks-callback 
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Code Climate](https://codeclimate.com/github/wejs/simple-hooks_callback/badges/gpa.svg)](https://codeclimate.com/github/wejs/simple-hooks_callback) [![Test Coverage](https://codeclimate.com/github/wejs/simple-hooks_callback/badges/coverage.svg)](https://codeclimate.com/github/wejs/simple-hooks_callback/coverage)
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Code Climate](https://codeclimate.com/github/wejs/simple-hooks-callback/badges/gpa.svg)](https://codeclimate.com/github/wejs/simple-hooks-callback) [![Coverage Status](https://coveralls.io/repos/github/wejs/simple-hooks-callback/badge.svg?branch=master)](https://coveralls.io/github/wejs/simple-hooks-callback?branch=master)
 
 > Hooks with callback, works like events but with async callbacks and in order
 

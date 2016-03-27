@@ -1,18 +1,15 @@
 language: node_js
 node_js:
-  - v5
   - v4
-  - '0.12'
 
 addons:
   code_climate:
-    repo_token: 8d07bda4536211d4af2ef9dce3edda45dff1f892a2abdb062ab1c2ffd0a637f2
 
 notifications:
   email:
     - alberto.souza.dev@gmail.com
 
 after_success:
-  - npm install codeclimate-test-reporter
-  - npm run coverage
-  - codeclimate-test-reporter < coverage/lcov.info
+- npm install coveralls
+- npm run coverage
+- cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js

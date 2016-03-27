@@ -3,6 +3,10 @@
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Code Climate](https://codeclimate.com/github/wejs/simple-hooks-callback/badges/gpa.svg)](https://codeclimate.com/github/wejs/simple-hooks-callback) [![Coverage Status](https://coveralls.io/repos/github/wejs/simple-hooks-callback/badge.svg?branch=master)](https://coveralls.io/github/wejs/simple-hooks-callback?branch=master)
 
 > Hooks with callback, works like events but with async callbacks and in order
+>
+> The easiest way to run asynchronous event functions with callback and execution order. Works like javascript events and is small and dont have dependencies
+
+
 
 ## Installation
 
@@ -23,8 +27,9 @@ function function1 (data, cb){
   // do something ...
   console.log('function1', data);
 
-  // then remember to call the callback, return cb(err); if you whant to returns error
+  // then remember to call the callback
   cb();
+  // or run **return cb(err);** if you want return error
 }
 
 function function2 (data, cb){
@@ -43,11 +48,11 @@ hooks.on('do-something', function1);
 // register other function
 hooks.on('do-something', function2);
 
-// register one function to run on hook event
+// run all registered functions
 hooks.trigger('do-something', function AfterAll (err){
   if (err) throw err;
 
-  console.log('doneAll')
+  console.log('doneAll');
   // all done
 });
 

@@ -61,6 +61,10 @@ hooks.off('do-something', function1);
 
 ```
 
+### Run this example in your browser 
+
+Link: https://tonicdev.com/570d0017d5cdb01100394e1a/570d0017d5cdb01100394e1b
+
 ## License
 
 MIT © [Alberto Souza](http://albertosouza.net)

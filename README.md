@@ -49,7 +49,7 @@ hooks.on('do-something', function1);
 hooks.on('do-something', function2);
 
 // run all registered functions
-hooks.trigger('do-something', function AfterAll (err){
+hooks.trigger('do-something', { someData: 'someValue' }, function AfterAll (err){
   if (err) throw err;
 
   console.log('doneAll');
